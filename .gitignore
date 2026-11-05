@@ -1,0 +1,34 @@
+# build artifacts
+build/
+dist/
+seeds/
+*.ipa
+
+# python POC default outputs (written to CWD when run without an argument)
+joliet_path_oob.iso
+deep_nest.usda
+ktx2_bad_dims.ktx2
+stack_bomb.cff
+
+# C POC twin default outputs (written to CWD when run without arguments)
+avc_900_slices.h264
+bc7_short.dds
+cinder27_traversal_probe.txt
+cmap_probe.pdf
+crash_shading_r136.pdf
+decmpfs_probe.bin
+direntry_wrap.tif
+gdef_caret_chase.ttf
+gps_oob.jpg
+gpt_overlong_name.img
+hevc_bad_layer.hevc
+joliet_oob.iso
+marker_length.jpg
+planar_scatter.tif
+rpu_probe_1x6.bin
+traversal.zip
+trunc_strip.tif
+usercomment_oob.jpg
+
+# macOS
+.DS_Store
